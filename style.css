@@ -22,7 +22,8 @@ h1 {
 .single-box {
     width: 20%;
     height: 250px;
-    transition: 2s ease-in-out;
+    transition: all 1s ease-out;
+    
 }
 .box-1{
     background: #A8E23F;
@@ -30,7 +31,7 @@ h1 {
     background: -moz-linear-gradient(top left, #A8E23F, #1DB034);
     background: linear-gradient(to bottom right, #A8E23F, #1DB034);
     position: absolute;
-    top: -50px;
+    top: -60px;
     left: 35%;
 }
 .box-2 {
@@ -43,12 +44,14 @@ h1 {
     left: 40%;
 }
 .box-3 {
+    
+    transition: all 5s ease-in;
     background: #655666;
     background: -webkit-linear-gradient(top left, #655666, #E5EA75);
     background: -moz-linear-gradient(top left, #655666, #E5EA75);
     background: linear-gradient(to bottom right, #655666, #E5EA75);
     position: absolute;
-    top: 50px;
+    top: 60px;
     left: 45%;
 }
 .box-4 {
@@ -57,10 +60,11 @@ h1 {
     background: -moz-linear-gradient(top left, #9A1D75, #62A7C2);
     background: linear-gradient(to bottom right, #9A1D75, #62A7C2);
     position: absolute;
-    top: 100px;
+    top: 120px;
     left: 50%;
+
 }
 .box-4:hover, .box-3:hover, .box-2:hover, .box-1:hover {
     z-index: 1;
-    transition: 2s ease-in-out;
+    transition: all 1s ease-out;
 }
